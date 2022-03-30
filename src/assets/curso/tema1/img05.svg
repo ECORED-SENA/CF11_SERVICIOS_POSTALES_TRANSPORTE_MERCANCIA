@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="505" height="320" viewBox="0 0 505 320">
+  <g id="Grupo_154816" data-name="Grupo 154816" transform="translate(-180 -1597)">
+    <rect id="Rectángulo_39391" data-name="Rectángulo 39391" width="190" height="150" rx="10" transform="translate(180 1599)" fill="#43a99b"/>
+    <rect id="Rectángulo_39393" data-name="Rectángulo 39393" width="190" height="150" rx="10" transform="translate(180 1766)" fill="#ff8578"/>
+    <g id="Grupo_154606" data-name="Grupo 154606" transform="translate(85 215)">
+      <rect id="Rectángulo_39392" data-name="Rectángulo 39392" width="234" height="109" transform="translate(285 1404)" fill="#b1e0d9"/>
+      <path id="Polígono_5" data-name="Polígono 5" d="M76.5,0,153,83H0Z" transform="translate(600 1382) rotate(90)" fill="#b1e0d9"/>
+    </g>
+    <g id="Grupo_154607" data-name="Grupo 154607" transform="translate(85 382)">
+      <rect id="Rectángulo_39392-2" data-name="Rectángulo 39392" width="234" height="109" transform="translate(285 1404)" fill="#ffb6ae"/>
+      <path id="Polígono_5-2" data-name="Polígono 5" d="M76.5,0,153,83H0Z" transform="translate(600 1382) rotate(90)" fill="#ffb6ae"/>
+    </g>
+    <text id="Satisfacción_del_cliente" data-name="Satisfacción
+del cliente" transform="translate(274 1671)" fill="#12263f" font-size="21" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-59.006" y="0">Satisfacción</tspan><tspan x="-49.311" y="29">del cliente</tspan></text>
+    <text id="Disminuir_costos_" data-name="Disminuir
+costos " transform="translate(274 1834)" fill="#12263f" font-size="21" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-45.691" y="0">Disminuir</tspan><tspan x="-34.069" y="29">costos </tspan></text>
+    <text id="Entregas_en_tiempos_cortos." data-name="Entregas en
+tiempos cortos." transform="translate(390 1647)" fill="#12263f" font-size="21" font-family="Roboto-Regular, Roboto"><tspan x="0" y="22">Entregas en</tspan><tspan x="0" y="51">tiempos cortos.</tspan></text>
+    <text id="Transporte._Mano_de_obra." data-name="Transporte.
+Mano de obra." transform="translate(390 1814)" fill="#12263f" font-size="21" font-family="Roboto-Regular, Roboto"><tspan x="0" y="22">Transporte.</tspan><tspan x="0" y="51">Mano de obra.</tspan></text>
+  </g>
+</svg>
