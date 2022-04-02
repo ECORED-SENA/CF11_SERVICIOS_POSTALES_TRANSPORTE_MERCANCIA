@@ -11,8 +11,9 @@
       .col-lg-8
         .bloque-texto-a.color-acento-contenido.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-0
-              img.img04(src='@/assets/curso/tema1/img02B.png')
+            .col-lg-4.col-sm-8.mb-0
+              figure(data-aos="fade-right")
+                img.img04(src='@/assets/curso/tema1/img02B.png')
             .col-lg-8.p-4.p-md-5
               .bloque-texto-a__texto.p-4
                 p La última milla hace referencia al último paso que se realiza en el proceso de entrega de los objetos postales y de las mercancías al destinatario. <strong>Este proceso se conoce también como distribución capilar, es la gestión exclusiva del transporte de paquetería,</strong> servicio que se aplica al último trayecto que se realiza para la entrega final del paquete, el objeto postal o la mercancía al destinatario. La última milla está direccionada a la distribución en la ciudad.
@@ -24,7 +25,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .row.mb-5
-          .col-6.mb-4.mb-xl-0
+          .col-lg-6.mb-4.mb-xl-0(data-aos="fade-right")
             .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
@@ -34,7 +35,7 @@
                   p.text-center busca la satisfacción del cliente realizando entregas en tiempos más cortos.
                   <br><br><br><br><br><br><br><br>
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img03.png')})`}")
-          .col-6.mb-4.mb-xl-0
+          .col-lg-6.mb-4.mb-xl-0(data-aos="fade-left")
             .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
@@ -46,77 +47,77 @@
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img04.png')})`}")
 
     .row.mb-5
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img05.svg')
       .col-lg-6.p-2
         <br><br>
         p Hacer entrega de una cantidad considerable de paquetes o cargas es fácil, tiene la facilidad de disponer del recurso como el vehículo apropiado, los elementos de cargue, descargue y los operarios logísticos para que cumplan con la entrega, ese proceso para la empresa no presenta ninguna dificultad; sin embargo, disponer de recursos como vehículos y operarios para hacer entregas pormenorizadas genera mayores costos y no se optimizan los recursos, produciendo altos costos de operación, por ello, la última milla está enfocada a realizar procesos de entrega de paquetes pormenorizados y en muchas ocasiones entregas de mercancías en cantidades, con el objeto de mejorar la operatividad de los procesos.
-
-    .row.mb-5
-      .col-lg-12
-        .BG01.mb-4
-          .row.justify-content-center.align-items-center.p-4
-            .col-1
-              img(src='@/assets/curso/tema1/img06.svg')
-            .col-8
-              p En caso de querer ampliar la información sobre <strong>¿qué es la última milla?</strong> ingrese al siguiente enlace:
-            .col-2
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=IzJ0FcP3Cy8" target="_blank")
-                span Ver más
-                i.fas.fa-link
     
+    .row.align-items-center.BG01.p-4.mb-5
+      .col-lg-1.col-md-1.col-sm-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img06.svg')
+      .col-lg-11.col-md-11.col-sm-10
+        .row
+          .col-11
+            p En caso de querer ampliar la información sobre <strong>¿qué es la última milla?</strong> ingrese al siguiente enlace:
+          .col-6(data-aos="fade-left")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=IzJ0FcP3Cy8" target="_blank")
+              span Ver más
+              i.fas.fa-link
+        
     p.mb-4 En el mundo de la logística de mercancías el término “<strong>última milla</strong>” representa la última parte del proceso de entrega de un pedido, es decir, cuando el producto es derivado hacia el cliente final. Son las acciones que transcurren desde que el paquete deja el punto de distribución hasta llegar a las manos del consumidor. Dentro de estas acciones se puede encontrar las siguientes:
 
     .row.BGIMG01.p-4.mb-5
       .col-lg-12
         SlyderA
           .row.justify-content-center.p-5
-            .col-6.p-2.mb-5
+            .col-lg-6.col-sm-10-p-2.mb-5
               figure
                 img(src='@/assets/curso/tema1/img08.png')
-            .col-6.p-4.mb-5
+            .col-lg-6.p-4.mb-5
               <br><br>
               h4.mb-3 Rutas de transporte
               p Se refieren a la <strong>persona que planifica la ruta de distribución y el recorrido de la mercancía respectivamente</strong>. Estas rutas deben ser eficientes y estar constituidas de tal forma que la empresa tenga la capacidad  de minimizar costos asociados, tanto como sea posible.
           .row.justify-content-center.p-5
-            .col-6.p-2.mb-5
+            .col-lg-6.col-sm-10-p-2.mb-5
               figure
                 img(src='@/assets/curso/tema1/img09.png')
-            .col-6.p-4.mb-5
+            .col-lg-6.p-4.mb-5
               <br><br>
               h4.mb-3 Sector de producción y línea de ensamble
               p Este proceso de evolución de los sectores de producción y comercialización se vuelca a  desarrollar líneas de ensamble, se crea la integración de la cadena de suministro y los tiempos de transporte se vuelven visibles, es decir, <strong>toman importancia en el proceso de compra - envío - entrega</strong>, los tiempos cambian y los clientes empiezan a exigir mejores servicios.
           .row.justify-content-center.p-5
-            .col-6.p-2.mb-5
+            .col-lg-6.col-sm-10-p-2.mb-5
               figure
                 img(src='@/assets/curso/tema1/img10.png')
-            .col-6.p-4.mb-5
+            .col-lg-6.p-4.mb-5
               <br><br>
               h4.mb-3 Cadenas de suministro
               p Todas<strong> las cadenas de suministros están enfocadas en la prestación de servicios con agilidad, eficiencia y eficacia, el tiempo es muy importante en las entregas</strong>, es por todo esto que la gestión de la última milla marca una gran diferencia y es relevante para las organizaciones, apostarle al uso de las herramientas dispuestas para la gestión de este proceso. 
     p.mb-4 En el comercio de productos, e incluso, la economía se generaba teniendo como base las rutas de transporte que se tenían disponibles, era el prestador del servicio el que establecía o definía los precios del servicio prestado, de esta manera se daba esa conexión incipiente entre el origen de un producto y el destino; <strong>con el paso del tiempo las economías crecen y se genera más producción</strong>, de hecho las empresas trabajan para tener inventarios disponibles. 
     p.mb-5 En las líneas de producción y ensamble se hace reducción de los tiempos de recepción de las mercancías compradas, ya que <strong>para las empresas no es rentable tener inventarios en sus bodegas, esto les genera costos de almacenamiento y otros gastos que impactan la productividad</strong>, además porque el factor económico es realmente relevante, por ello, se da una mirada diferente tanto al proceso de producción como al de comercialización, los cuales deben ir de la mano.
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-primario.mb-4
-          .row.justify-content-center.py-5
-            .col-11  
-              p En este ciclo de desarrollo del servicio de transporte no solo para los servicios postales sino también para las mercancías se empieza a usar herramientas tecnológicas para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, <strong>los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad</strong>, lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
-  
-    .titulo-segundo.color-acento-contenido
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-lg-10.cajon.color-primario.p-4.mb-4
+        p En este ciclo de desarrollo del servicio de transporte no solo para los servicios postales sino también para las mercancías se empieza a usar herramientas tecnológicas para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, <strong>los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad</strong>, lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
+
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Especificaciones de mercancías y objetos postales
 
     .row.justify-content-center.align-items-center.mb-5     
       .col-lg-4.p-0
-        img(src='@/assets/curso/tema1/img11.png')
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img11.png')
       .col-lg-7       
         p Las especificaciones o características de las mercancías son el parámetro para definir el tipo de manipulación que se debe dar; por consiguiente, la preparación de los equipos, de las herramientas de cargue y descargue y el almacenamiento que debe darse permite garantizar el buen estado de los objetos postales y de las mercancías que están en tránsito al lugar de destino, por tanto, las especificaciones o características de las mercancías son condiciones para el diseño de espacios para almacenar, así como la necesidad y el tipo de estanterías más el sistema de almacenamiento, además de establecer todas las normas de seguridad y salud en el trabajo que se deben implementar para la protección no solo de las mercancías, sino también de todo el equipo de operarios logísticos. 
     p.mb-4 Para la distribución de las mercancías se debe tener en cuenta aspectos como:
 
     .row.justify-content-center
-      .col-lg-8.mb-5
-        img(src='@/assets/curso/tema1/img12.png')
+      .col-lg-6.mb-5
+        figure(data-aos="flip-up")
+          img(src='@/assets/curso/tema1/img12.svg')
       .col-lg-12.mb-4
         p Para entrar al proceso de última milla se debe dar <strong>cumplimiento a requerimientos mínimos de operación o información</strong>, estos requerimientos son los siguientes:
 
@@ -125,9 +126,10 @@
       .col-lg-11
         .row.justify-content-center.BG02
           .col-2
-            img.img01(src='@/assets/curso/tema1/img13.svg')
+            figure(data-aos="fade-right")
+              img.img01(src='@/assets/curso/tema1/img13.svg')
             img.img02(src='@/assets/curso/tema1/img14.svg')
-          .col-9.p-5
+          .col-9.py-4
             ol.lista-ol--cuadro.lista-ol--separador
               li 
                 .lista-ol--cuadro__vineta
@@ -163,121 +165,91 @@
                 | Reconocimiento de los horarios de reparto en redistribución.  
       
     .row.justify-content-center
-      .col-lg-4.mb-0
-        .tarjeta-avatar.mb-0
-          img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
-          .BG03
-            .text-white.p-5
-              h4.text-center Punto de posición o detección        
-      .col-lg-4.mb-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
-          .BG04.p-5 
-            h4.text-center Guía de despacho
-      .col-lg-8.mb-2
-        .row
-          .col-6
-            .row.justify-content-center
-              .col-2
-                figure
-                  img(src='@/assets/curso/tema1/img17.svg')
-          .col-6
-            .row.justify-content-center
-              .col-2
-                figure
-                  img(src='@/assets/curso/tema1/img17.svg')
-    .row.justify-content-center
-      .col-lg-4.mb-0.px-2
-        .BG05.p-4         
-         h4.text-center Identificación de peso y volumen
-         br
-      .col-lg-4.mb-0.px-2
-        .BG06.p-4         
-          h4.text-center Características del vehículo o medio de transporte
-      .col-lg-8.mb-2
-        .row
-          .col-6
-            .row.justify-content-center
-              .col-2
-                figure
-                  img(src='@/assets/curso/tema1/img17.svg')
-          .col-6
-            .row.justify-content-center
-              .col-2
-                figure
-                  img(src='@/assets/curso/tema1/img17.svg')
+      .col-lg-4.mb-0.mb-lg-4.mx-2
+        .row.justify-content-center
+          .col-12.mb-0(data-aos="fade-down")
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
+              .BG03.p-4
+                h4.text-center.text-white Punto de posición o detección
+          .col-2.mb-2(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/img17.svg')
+          .col-12.BG05.p-4.mb-0(data-aos="fade-down")
+            h4.text-center Identificación de peso y volumen
+            br
+          .col-2.mb-2(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/img17.svg')
+          .col-12.BG07.p-4.mb-0(data-aos="fade-down")
+            h4.text-center Restricciones viales
+            br
+          .col-2.mb-2(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/img17.svg')
+          .col-12.BG09.p-4(data-aos="fade-down")
+            h4.text-center Reconocimiento de vehículos para la redistribución 
 
-    .row.justify-content-center
-      .col-lg-4.mb-0.px-2
-        .BG07.p-4         
-         h4.text-center Restricciones viales
-         br
-      .col-lg-4.mb-0.px-2
-        .BG08.p-4         
-          h4.text-center Alistamiento de zonas de almacenamiento, cargue y descargue
-      .col-lg-8.mb-2
-        .row
-          .col-6
-            .row.justify-content-center
-              .col-2
-                figure
-                  img(src='@/assets/curso/tema1/img17.svg')
-          .col-6
-            .row.justify-content-center
-              .col-2
-                figure
-                  img(src='@/assets/curso/tema1/img17.svg')
-        
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-0.px-2
-        .BG09.p-4         
-         h4.text-center Reconocimiento de vehículos para la redistribución         
-      .col-lg-4.mb-0.px-2
-        .BG10.p-4        
-          h4.text-center Reconocimiento de horarios de reparto en la redistribución
-      
-    .titulo-segundo.color-acento-contenido
+      .col-lg-4.mb-0.mx-2
+        .row.justify-content-center
+          .col-12.mb-0(data-aos="fade-down")
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
+              .BG04.p-4
+                h4.text-center Guía de despacho
+          .col-2.mb-2
+            img(src='@/assets/curso/tema1/img17.svg')
+          .col-12.BG06.p-4.mb-0(data-aos="fade-down")
+            h4.text-center Características del vehículo o medio de transporte
+          .col-2.mb-2
+            img(src='@/assets/curso/tema1/img17.svg')
+          .col-12.BG08.p-4.mb-0(data-aos="fade-down")
+            h4.text-center Alistamiento de zonas de almacenamiento, cargue y descargue
+          .col-2.mb-2
+            img(src='@/assets/curso/tema1/img17.svg')
+          .col-12.BG10.p-4(data-aos="fade-down")
+            h4.text-center Reconocimiento de horarios de reparto en la redistribución
+
+    separador  
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Pedidos
 
     .row.justify-content-center.align-items-center.mb-5     
       .col-lg-4.p-0
-        img(src='@/assets/curso/tema1/img18.png')
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img18.png')
       .col-lg-7       
         p La preparación de pedidos para última milla se denomina <em>picking</em>, esta etapa en el proceso logística es de mucha importancia para todos los centros de distribución, en este proceso se puede generar reproceso si no se hace la preparación de los pedidos de forma ordenada y atenta, es la garantía de que el objeto postal o mercancía embalada sea el apropiado para continuar con el recorrido al destino final; es por ello que la etapa de organización y preparación de las mercancías demanda eficiencia para no ver afectada la operación y por consiguiente, dar cumplimiento a las promesas de valor de los clientes y no menoscabar la productividad de la empresa.  
     p.mb-5 Entonces, si aún no tiene claro lo que es el <em>picking</em>, lo puede aclarar a través del siguiente recurso:
 
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-primario.mb-4
-          .row.justify-content-center.py-5
-            .col-11  
-              p Las empresas de servicios postales y de transporte de mercancías deben contar con la tecnología necesaria para llevar a cabo el proceso de disposición de la carga al destinatario, lo cual se debe hacer con gran eficiencia, este paso puede afectar o beneficiar a la empresa productora o comercializadora que realizó la venta del producto, el cual está siendo esperado por un cliente que tiene expectativas de la recepción pronta del pedido.
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-lg-10.cajon.color-primario.p-4.mb-4
+        p Las empresas de servicios postales y de transporte de mercancías deben contar con la tecnología necesaria para llevar a cabo el proceso de disposición de la carga al destinatario, lo cual se debe hacer con gran eficiencia, este paso puede afectar o beneficiar a la empresa productora o comercializadora que realizó la venta del producto, el cual está siendo esperado por un cliente que tiene expectativas de la recepción pronta del pedido.
 
     p.mb-5 Las herramientas ofimáticas que se usan para hacer este proceso se encuentran parametrizadas para planificar y diseñar las rutas de distribución; otras herramientas permiten hacer seguimiento a los objetos postales y mercancías para determinar la ubicación en todo momento y así definir el avance en trayectos y pronosticar horas de recepción o entrega. 
 
-    .row.mb-5
-      .col-lg-12
-        .BG01.mb-4
-          .row.justify-content-center.align-items-center.p-4
-            .col-1
-              img(src='@/assets/curso/tema1/img06.svg')
-            .col-8
-              p En caso de querer ampliar la información sobre el <strong>proceso en un centro de distribución</strong>, ingrese al siguiente enlace o material complementario:
-            .col-2
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=BE8XH9LkymY" target="_blank")
-                span Ver más
-                i.fas.fa-link
+    .row.align-items-center.BG01.p-4.mb-5
+      .col-lg-1.col-md-1.col-sm-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img06.svg')
+      .col-lg-11.col-md-11.col-sm-10
+        .row
+          .col-11
+            p En caso de querer ampliar la información sobre el <strong>proceso en un centro de distribución</strong>, ingrese al siguiente enlace o material complementario:
+          .col-6(data-aos="fade-left")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=BE8XH9LkymY" target="_blank")
+              span Ver más
+              i.fas.fa-link
 
-    .titulo-segundo.color-acento-contenido
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Equipos
 
     .row.justify-content-center.align-items-center.mb-5     
       .col-lg-4.p-0
-        img(src='@/assets/curso/tema1/img19.png')
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img19.png')
       .col-lg-7       
         p Todos los equipos mecanizados especializados para la administración, sostenimiento y manipulación de los objetos postales están debidamente determinados de acuerdo con las especificaciones de peso, volumen y/o características especiales que sean requeridas para dichas operaciones. Normalmente, los equipos para este tipo de operaciones son los montacargas, los transpaletas, los preparadores de pedido y las carretillas convencionales/contrapesadas. A continuación, se presenta el siguiente recurso para identificar cada uno de ellos de manera gráfica:
 
@@ -310,30 +282,31 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img24.png')})`}"
           )
           .row.bloque-texto-g__texto.p-4          
-            .col-1
+            .col-1(data-aos="fade-down")
               img.img06(src='@/assets/curso/tema1/img25.png')
-            .col-11
+            .col-lg-11.col-md-11(data-aos="fade-left")
               p.mb-0 Los equipos de los que disponen las empresas de servicios postales y transporte de mercancías <strong>para realizar las diferentes tareas de movilización de la carga deben ser operados por operadores logísticos certificados</strong>, esto es garantía para el buen manejo y minimizar las posibilidades de accidentes durante la manipulación de los mismos, por ello, siempre se debe tener sentido de autocuidado. 
-              
-    .row.mb-5
-      .col-lg-12
-        .BG01.mb-4
-          .row.justify-content-center.align-items-center.p-4
-            .col-1
-              img(src='@/assets/curso/tema1/img06.svg')
-            .col-8
-              p En caso de ser necesario ampliar la información sobre <strong>el equipo de manipulación de materiales y tecnología dentro del centro de distribución</strong> ingrese al siguiente enlace o material complementario:
-            .col-2
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=pcyYZjcsd-o" target="_blank")
-                span Ver más
-                i.fas.fa-link
+    
+    .row.align-items-center.BG01.p-4.mb-5
+      .col-lg-1.col-md-1.col-sm-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img06.svg')
+      .col-lg-11.col-md-11.col-sm-10
+        .row
+          .col-11
+            p En caso de ser necesario ampliar la información sobre <strong>el equipo de manipulación de materiales y tecnología dentro del centro de distribución</strong> ingrese al siguiente enlace o material complementario:
+          .col-6(data-aos="fade-left")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=pcyYZjcsd-o" target="_blank")
+              span Ver más
+              i.fas.fa-link
 
-    .titulo-segundo.color-acento-contenido
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Procesos de distribución
 
     p.mb-5 Cada empresa de servicios postales o transporte de mercancías determina sus procesos internos de distribución de acuerdo con el modelo de negocio y el objeto social, de estos se desprenden los procedimientos y de ellos los indicadores de gestión con los cuales se permiten la mejora continua, atención y servicio al cliente; sin embargo, para el caso de la “última milla” del proceso de movilización y entrega de objetos postales existen procesos de línea que deben ser seguidos para completar la entrega a satisfacción al cliente:
 
-    .row.BG02.justify-content-center.align-items-center.mb-5
+    .row.BG02.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-10.py-5
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -367,70 +340,72 @@
 
     p.mb-5 A continuación, se invita a visitar el siguiente recurso educativo en el que puede profundizar la trazabilidad en los procesos logísticos.
 
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p De manera que el proceso de línea en la entrega contempla:
 
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/tema1/img26.svg')
+    
+    .row.align-items-center.BG01.p-4.mb-5
+      .col-lg-1.col-md-1.col-sm-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img06.svg')
+      .col-lg-11.col-md-11.col-sm-10
+        .row
+          .col-11
+            p En caso de desear ampliar la información y conocer un poco sobre el “<strong>Centro de distribución de mercado libre - Así funciona</strong>”, ingrese al siguiente enlace o material complementario: 
+          .col-6(data-aos="fade-left")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8eFhnpvaRB0" target="_blank")
+              span Ver más
+              i.fas.fa-link
 
-    .row.mb-5
-      .col-lg-12
-        .BG01.mb-4
-          .row.justify-content-center.align-items-center.p-4
-            .col-1
-              img(src='@/assets/curso/tema1/img06.svg')
-            .col-8
-              p En caso de desear ampliar la información y conocer un poco sobre el “<strong>Centro de distribución de mercado libre - Así funciona</strong>”, ingrese al siguiente enlace o material complementario: 
-            .col-2
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8eFhnpvaRB0" target="_blank")
-                span Ver más
-                i.fas.fa-link
-
-    .titulo-segundo.color-acento-contenido
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Disposición de carga de acuerdo con el plan de ruta
 
     p.mb-4 A la vista de la llegada de los productos al sitio de redistribución para el inicio de la entrega a los  clientes finales se hace necesario en el caso de los vehículos que realizan el proceso tener un plan de ruta de cada uno de ellos, con el objetivo de optimizar los tiempos de entrega y costos de operación. Este paso es fundamental en la satisfacción del cliente final y en el cumplimiento del contrato de transporte firmado con el remitente.
     p.mb-4 Los planes de ruta, como mínimo, deben contar con los siguientes componentes:
 
-    figure.mb-4
+    figure.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/tema1/img27.svg')
     
-    .row.mb-5
-      .col-lg-12
-        .BG01.mb-4
-          .row.justify-content-center.align-items-center.p-4
-            .col-1
-              img(src='@/assets/curso/tema1/img06.svg')
-            .col-8
-              p En caso de ser necesario ampliar la información sobre <strong>la disposición de la carga</strong>, ingrese al siguiente enlace o material complementario:
-            .col-2
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=A73wlrqsNw0" target="_blank")
-                span Ver más
-                i.fas.fa-link
+    .row.align-items-center.BG01.p-4.mb-5
+      .col-lg-1.col-md-1.col-sm-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img06.svg')
+      .col-lg-11.col-md-11.col-sm-10
+        .row
+          .col-11
+            p En caso de ser necesario ampliar la información sobre <strong>la disposición de la carga</strong>, ingrese al siguiente enlace o material complementario:
+          .col-6(data-aos="fade-left")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=A73wlrqsNw0" target="_blank")
+              span Ver más
+              i.fas.fa-link
 
-    .titulo-segundo.color-acento-contenido
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 Normativa de movilización de cargas
 
     p.mb-4 En Colombia se cuenta con una amplia normatividad para el transporte de carga, dichas normas contienen las obligaciones a que están sujetas todas las empresas que prestan el servicio de carga en el territorio nacional.
     p.mb-4 Dicha normativa es: 
 
     .row.justify-content-center.mb-4
-      .col-lg-4.p-4
+      .col-lg-4.p-4(data-aos="fade-right")
         .row.BG12.p-4
           .col-3
             img(src='@/assets/curso/tema1/img28.svg')
           .col-12
             p Ley 105 de 1993, Art. 3, en la que se define el transporte público como una industria que debe garantizar la movilización de personas, cosas y objetos, haciendo uso de vehículos apropiados según las necesidades de los sectores, el servicio que se presta de transporte público debe ser bajo condiciones de calidad y seguridad, recibiendo a cambio un pago o contraprestación económica (Agencia Nacional de Infraestructura, 1993).
-      .col-lg-4.p-4
+      .col-lg-4.p-4(data-aos="flip-up")
         .row.BG13.p-4
           .col-3
             img(src='@/assets/curso/tema1/img29.svg')
           .col-12
             p Ley 336 de 1966, esta ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
-      .col-lg-4.p-4
+      .col-lg-4.p-4(data-aos="fade-left")
         .row.BG14.p-4
           .col-3
             img(src='@/assets/curso/tema1/img29.svg')
@@ -443,7 +418,7 @@
       h5 Figura 1
       span Vehículos para carga según disposición de los ejes
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .tabla-a.color-primario.mb-5 
           table
@@ -553,84 +528,88 @@
                 td 
                   p.text-center Camión de cuatro ejes, con remolque de dos ejes.
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-acento-contenido.mb-4
-          .row.justify-content-center.py-5
-            .col-11  
-              p La Resolución 4100 de 2004 en el Artículo 7 refiere las dimensiones que deben cumplir los vehículos de carga que transiten por el territorio nacional. Estas dimensiones están estandarizadas con las siguientes medidas: ancho máximo 2,60 metros, altura máxima 4,40 metros. 
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-lg-10.cajon.color-acento-contenido.p-4.mb-4
+        p La Resolución 4100 de 2004 en el Artículo 7 refiere las dimensiones que deben cumplir los vehículos de carga que transiten por el territorio nacional. Estas dimensiones están estandarizadas con las siguientes medidas: ancho máximo 2,60 metros, altura máxima 4,40 metros. 
       .col-lg-12.mb-5
         p El Artículo 9 establece para los vehículos de transporte de carga el máximo peso por eje, así:
 
-    .row.justify-content-center.mb-5
-      .col-sm-6.col-xl-3.mb-4
+  .container.tarjeta.tarjeta--blanca
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.BG21.p-4.p-xl-5.py
-              .titulo-sexto.color-secundario                    
-                p Eje de dos llantas - peso máximo por eje 6.000 Kl 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img44.png')})`}")
-      .col-sm-6.col-xl-3.mb-4
+            .tarjeta-slide__contenido.BG21.p-2.py-4
+              .titulo-sexto.color-secundario
+                p.mb-0 Eje de dos llantas - peso máximo por eje 6.000 Kl 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img44.svg')})`}")
+      .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.BG21.p-4.p-xl-5.py
+            .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-primario                        
-                p Cuatro llantas - peso máximo por eje 11.000 Kl 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img45.png')})`}")
-      .col-sm-6.col-xl-3.mb-4
+                p.mb-0 Cuatro llantas - peso máximo por eje 11.000 Kl 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img45.svg')})`}")
+      .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.BG21.p-4.p-xl-5.py
+            .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-acento-contenido                        
-                p Cuatro llantas  y eje tandem -  peso máximo por eje de 11.000 Kg  
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.png')})`}")
-      .col-sm-6.col-xl-3.mb-4
+                p.mb-0 Cuatro llantas  y eje tandem -  peso máximo por eje de 11.000 Kg  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.svg')})`}")
+      .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.BG21.p-4.p-xl-5.py
+            .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-acento-botones
-                p Seis llantas y eje tandem - peso máximo por eje de 17.000 Kg  
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.png')})`}")
-      .col-sm-6.col-xl-3.mb-4
+                p.mb-0 Seis llantas y eje tandem - peso máximo por eje de 17.000 Kg  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.svg')})`}")
+      .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.BG21.p-4.p-xl-5.py
+            .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-secundario                        
-                p Ocho llantas y eje tandem - peso máximo por eje de 22.000 Kg  
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.png')})`}")
-
-    .titulo-segundo.color-acento-contenido
+                p.mb-0 Ocho llantas y eje tandem - peso máximo por eje de 22.000 Kg  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.svg')})`}")
+  
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.7 Aplicación de <em>software</em>
 
     .row.justify-content-center.align-items-center.mb-5     
       .col-lg-4.p-0
-        img(src='@/assets/curso/tema1/img49.png')
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img49.png')
       .col-lg-7       
         p Las plataformas de información para el manejo de los objetos postales deben ser integrales, dicha herramienta ofimática debe permitir el proceso de administración de la información, realizar registros documentales digitales que rigen (la solicitud del cliente para la prestación del servicio) hasta el destino final (entrega del objeto postal al cliente) y la generación de informes según los parámetros de la información que se requiera procesar. Lo anterior quiere decir que el <em>software</em> aplicable para el proceso de última milla ya viene integrado en el control de sus procesos dentro de la plataforma principal de gestión  del operador de servicios postales y del transporte de mercancías.
     
-    .row.mb-5
-      .col-lg-12
-        .BG01.mb-4
-          .row.justify-content-center.align-items-center.p-4
-            .col-1
-              img(src='@/assets/curso/tema1/img06.svg')
-            .col-8
-              p Se invita a ampliar la información sobre <strong>el <em>software</em> para solución logística de última milla</strong>, ingresando al siguiente enlace o material complementario: 
-            .col-2
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8YmUODEfmRI" target="_blank")
-                span Ver más
-                i.fas.fa-link 
-    .titulo-segundo.color-acento-contenido
+    .row.align-items-center.BG01.p-4.mb-5
+      .col-lg-1.col-md-1.col-sm-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img06.svg')
+      .col-lg-11.col-md-11.col-sm-10
+        .row
+          .col-11
+            p Se invita a ampliar la información sobre <strong>el <em>software</em> para solución logística de última milla</strong>, ingresando al siguiente enlace o material complementario: 
+          .col-6(data-aos="fade-left")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8YmUODEfmRI" target="_blank")
+              span Ver más
+              i.fas.fa-link
+    
+    separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.8 Información documentada de la última milla
 
     .row.justify-content-center.align-items-center.mb-5     
       .col-lg-4.p-0
-        img(src='@/assets/curso/tema1/img50.png')
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img50.png')
       .col-lg-7       
         p El <em>software</em> logístico de última milla contiene opciones para hacer seguimiento a las entregas en periodos establecidos, este <em>software</em> permite que el conductor de los vehículos conozca la hoja de ruta, así como las especificaciones establecidas para las entregas y así dar cumplimiento a las entregas en las horas establecidas, permite también que se registre a través de los dispositivos móviles las entregas efectivas y puede acompañar la entrega de evidencias como firmas e incluso fotografías y, las entregas no efectivas también son reportadas en tiempo real, esta información en línea es compartida con el usuario o cliente donde conoce los pormenores y los detalles del avance de la entrega. 
 
@@ -639,20 +618,20 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         .row.BG15
-          .col-4
-            img(src='@/assets/curso/tema1/img51.png')
+          .col-4(data-aos="fade-right")
+            img(src='@/assets/curso/tema1/img51.svg')
           .col-7
             p <b>Guía de envío</b> (cada objeto postal, mercancía o carga en proceso).
       .col-lg-4
         .row.BG16
-          .col-4
-            img(src='@/assets/curso/tema1/img52.png')
+          .col-4(data-aos="flip-up")
+            img(src='@/assets/curso/tema1/img52.svg')
           .col-8
             p <b>Guía de transporte</b> (del vehículo hace el tránsito desde el origen al centro de redistribución).
       .col-lg-4
         .row.BG17
-          .col-4
-            img(src='@/assets/curso/tema1/img53.png')
+          .col-4(data-aos="fade-left")
+            img(src='@/assets/curso/tema1/img53.svg')
           .col-7
             p <b>Guía de despacho</b> (del centro de redistribución al cliente final).
     

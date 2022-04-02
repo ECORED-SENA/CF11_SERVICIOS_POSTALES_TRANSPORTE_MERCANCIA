@@ -14,44 +14,46 @@
 .tarjeta
   border-radius: 0px !important
 
+.BG01, .BG03, .BG04, .BG05, .BG06, .BG07, .BG08, .BG09, .BG10
+  border-radius: 20px
+
 .BG01
   background-color:#FED981 
-  border-radius: 20px
 
 .BG02
   background-color:#FFF3D8 
 
 .BG03
   background-color: #5263E2
-  border-radius: 20px
+  display: inline-block
+  padding-top: 75px !important
+  height: 100%
+  width: 100%
 
 .BG04
   background-color: #FED981
-  border-radius: 20px
+  display: inline-block
+  padding-top: 75px !important
+  height: 100%
+  width: 100%
 
 .BG05
   background-color: #97A1EE
-  border-radius: 20px
 
 .BG06
   background-color: #FEE8B3
-  border-radius: 20px
 
 .BG07
   background-color: #BAC1F3
-  border-radius: 20px
 
 .BG08
   background-color: #FFF0CD
-  border-radius: 20px
 
 .BG09
   background-color: #DCE0F9
-  border-radius: 20px
 
 .BG10
   background-color: #FFF7E6
-  border-radius: 20px
 
 .BG11
   border-radius: 20px !important
@@ -98,6 +100,7 @@
   background: #fff
   height: 300px
 
+
 .BGIMG01
   background-image: url("../assets/curso/tema1/img07.svg")
   background-size: cover
@@ -140,14 +143,43 @@
   width: 1800%
   top: 50px
 
+@media screen and (max-width: 767px) and (min-width: 0px)
+  .img01
+    position: relative
+    top: 200px
+    right: 100px
+    max-width: 300%
+    width: 300%
+  .img06
+    top: -20px
+    left: 150px
+    position: relative
+    max-width: 1000%
+    width: 1000%
+  
+@media screen and (max-width: 1399px) and (min-width: 768px)
+  .img01
+    position: relative
+    top: 150px
+    right: 75px
+    max-width: 250%
+    width: 230%
+  .img06
+    position: relative
+    right: 60px
+    max-width: 4000%
+    width: 4000%
+    top: 85px
+
+
 .img07
   width: 60%
   right: -80px
   position: relative
-  
-.tarjeta-avatar > img
-  top: 15%
-  width: 70px
+
+.img08
+  position: relative
+  width: 80%
 
 .bloque-texto-a.color-acento-contenido
   background-image: url("../assets/curso/tema1/img02.png")
@@ -168,3 +200,9 @@
 
 .cajon.color-acento-contenido
   background-color: #FFE7E4
+
+.banner-principal__row
+  border-radius: 20px
+
+.tarjeta-slide__img
+  background-size: 119%
