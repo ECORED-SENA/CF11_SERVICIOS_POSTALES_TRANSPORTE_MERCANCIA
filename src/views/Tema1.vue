@@ -54,10 +54,10 @@
         p Hacer entrega de una cantidad considerable de paquetes o cargas es fácil, tiene la facilidad de disponer del recurso como el vehículo apropiado, los elementos de cargue, descargue y los operarios logísticos para que cumplan con la entrega, ese proceso para la empresa no presenta ninguna dificultad; sin embargo, disponer de recursos como vehículos y operarios para hacer entregas pormenorizadas genera mayores costos y no se optimizan los recursos, produciendo altos costos de operación, por ello, la última milla está enfocada a realizar procesos de entrega de paquetes pormenorizados y en muchas ocasiones entregas de mercancías en cantidades, con el objeto de mejorar la operatividad de los procesos.
     
     .row.align-items-center.BG01.p-4.mb-5
-      .col-lg-1.col-md-1.col-sm-2
+      .col-lg-1.col-md-1.col-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
-      .col-lg-11.col-md-11.col-sm-10
+      .col-lg-11.col-md-11.col-10
         .row
           .col-11
             p En caso de querer ampliar la información sobre <strong>¿qué es la última milla?</strong> ingrese al siguiente enlace:
@@ -187,7 +187,7 @@
           .col-12.BG09.p-4(data-aos="fade-down")
             h4.text-center Reconocimiento de vehículos para la redistribución 
 
-      .col-lg-4.mb-0.mx-2
+      .col-lg-4.mb-5.mx-2
         .row.justify-content-center
           .col-12.mb-0(data-aos="fade-down")
             .tarjeta-avatar
@@ -207,7 +207,7 @@
           .col-12.BG10.p-4(data-aos="fade-down")
             h4.text-center Reconocimiento de horarios de reparto en la redistribución
 
-    separador  
+    
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Pedidos
 
@@ -230,10 +230,10 @@
     p.mb-5 Las herramientas ofimáticas que se usan para hacer este proceso se encuentran parametrizadas para planificar y diseñar las rutas de distribución; otras herramientas permiten hacer seguimiento a los objetos postales y mercancías para determinar la ubicación en todo momento y así definir el avance en trayectos y pronosticar horas de recepción o entrega. 
 
     .row.align-items-center.BG01.p-4.mb-5
-      .col-lg-1.col-md-1.col-sm-2
+      .col-lg-1.col-md-1.col-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
-      .col-lg-11.col-md-11.col-sm-10
+      .col-lg-11.col-md-11.col-10
         .row
           .col-11
             p En caso de querer ampliar la información sobre el <strong>proceso en un centro de distribución</strong>, ingrese al siguiente enlace o material complementario:
@@ -288,10 +288,10 @@
               p.mb-0 Los equipos de los que disponen las empresas de servicios postales y transporte de mercancías <strong>para realizar las diferentes tareas de movilización de la carga deben ser operados por operadores logísticos certificados</strong>, esto es garantía para el buen manejo y minimizar las posibilidades de accidentes durante la manipulación de los mismos, por ello, siempre se debe tener sentido de autocuidado. 
     
     .row.align-items-center.BG01.p-4.mb-5
-      .col-lg-1.col-md-1.col-sm-2
+      .col-lg-1.col-md-1.col-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
-      .col-lg-11.col-md-11.col-sm-10
+      .col-lg-11.col-md-11.col-10
         .row
           .col-11
             p En caso de ser necesario ampliar la información sobre <strong>el equipo de manipulación de materiales y tecnología dentro del centro de distribución</strong> ingrese al siguiente enlace o material complementario:
@@ -350,10 +350,10 @@
       img(src='@/assets/curso/tema1/img26.svg')
     
     .row.align-items-center.BG01.p-4.mb-5
-      .col-lg-1.col-md-1.col-sm-2
+      .col-lg-1.col-md-1.col-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
-      .col-lg-11.col-md-11.col-sm-10
+      .col-lg-11.col-md-11.col-10
         .row
           .col-11
             p En caso de desear ampliar la información y conocer un poco sobre el “<strong>Centro de distribución de mercado libre - Así funciona</strong>”, ingrese al siguiente enlace o material complementario: 
@@ -373,10 +373,10 @@
       img(src='@/assets/curso/tema1/img27.svg')
     
     .row.align-items-center.BG01.p-4.mb-5
-      .col-lg-1.col-md-1.col-sm-2
+      .col-lg-1.col-md-1.col-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
-      .col-lg-11.col-md-11.col-sm-10
+      .col-lg-11.col-md-11.col-10
         .row
           .col-11
             p En caso de ser necesario ampliar la información sobre <strong>la disposición de la carga</strong>, ingrese al siguiente enlace o material complementario:
@@ -590,10 +590,10 @@
         p Las plataformas de información para el manejo de los objetos postales deben ser integrales, dicha herramienta ofimática debe permitir el proceso de administración de la información, realizar registros documentales digitales que rigen (la solicitud del cliente para la prestación del servicio) hasta el destino final (entrega del objeto postal al cliente) y la generación de informes según los parámetros de la información que se requiera procesar. Lo anterior quiere decir que el <em>software</em> aplicable para el proceso de última milla ya viene integrado en el control de sus procesos dentro de la plataforma principal de gestión  del operador de servicios postales y del transporte de mercancías.
     
     .row.align-items-center.BG01.p-4.mb-5
-      .col-lg-1.col-md-1.col-sm-2
+      .col-lg-1.col-md-1.col-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
-      .col-lg-11.col-md-11.col-sm-10
+      .col-lg-11.col-md-11.col-10
         .row
           .col-11
             p Se invita a ampliar la información sobre <strong>el <em>software</em> para solución logística de última milla</strong>, ingresando al siguiente enlace o material complementario: 
@@ -637,7 +637,7 @@
     
     p Todos estos documentos deben acumularse en el proceso de última milla de forma física y digital, cumpliendo con los requerimientos de recibo y entrega a satisfacción del destinatario o cliente final y, posterior a la validación se procede con el archivo. 
 
-    separador
+    
 </template>
 
 <script>
