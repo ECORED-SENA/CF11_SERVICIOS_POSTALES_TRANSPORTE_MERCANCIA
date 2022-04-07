@@ -125,11 +125,11 @@
       .col-1
       .col-lg-11
         .row.justify-content-center.BG02
-          .col-2
+          .col-lg-2.col-md-2.col-3.mb-4
             figure(data-aos="fade-right")
               img.img01(src='@/assets/curso/tema1/img13.svg')
             img.img02(src='@/assets/curso/tema1/img14.svg')
-          .col-9.py-4
+          .col-lg-9.col-md-9.col-12.py-4
             ol.lista-ol--cuadro.lista-ol--separador
               li 
                 .lista-ol--cuadro__vineta
@@ -207,7 +207,7 @@
           .col-12.BG10.p-4(data-aos="fade-down")
             h4.text-center Reconocimiento de horarios de reparto en la redistribución
 
-    
+    separador
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Pedidos
 
