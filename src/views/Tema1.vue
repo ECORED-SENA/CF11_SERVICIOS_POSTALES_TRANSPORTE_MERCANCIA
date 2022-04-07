@@ -102,7 +102,6 @@
       .col-lg-10.cajon.color-primario.p-4.mb-4
         p En este ciclo de desarrollo del servicio de transporte no solo para los servicios postales sino también para las mercancías se empieza a usar herramientas tecnológicas para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, <strong>los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad</strong>, lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
 
-    separador
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Especificaciones de mercancías y objetos postales
 
