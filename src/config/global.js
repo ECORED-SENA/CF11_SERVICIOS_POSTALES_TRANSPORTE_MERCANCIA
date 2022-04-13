@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Última milla',
     descripcionCurso:
-      'La llegada de los objetos postales al sitio final de entrega normalmente arriba de vehículos de carga o de volumen masivo implica realizar una maniobra de redistribución a un nuevo vehículo de menor tamaño, para llevar  a cabo la entrega al cliente final. Trazabilidad transaccional de los objetos postales en el último tramo de llegada al sitio final de entrega, que se relaciona con la recepción, almacenamiento, redistribución y entrega.',
+      'La llegada de los objetos postales al sitio final de entrega normalmente arriba de vehículos de carga o de volumen masivo implica realizar una maniobra de redistribución a un nuevo vehículo de menor tamaño, para llevar  a cabo la entrega al cliente final. <br><br> Trazabilidad transaccional de los objetos postales en el último tramo de llegada al sitio final de entrega, que se relaciona con la recepción, almacenamiento, distribución y entrega.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -30,49 +30,49 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Especificaciones de mercancías y objetos postales',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Pedidos',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Equipos',
-            hash: 'botones',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Procesos de distribución',
-            hash: 'listas',
+            hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Disposición de carga de acuerdo con el plan de ruta',
-            hash: 'tablas',
+            hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Normativa de movilización de cargas',
-            hash: 'imagen',
+            hash: 't_1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Aplicación de <em>software</em>',
-            hash: 'imagen_infografica',
+            hash: 't_1_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
             titulo: 'Información documentada de última milla',
-            hash: 'video',
+            hash: 't_1_8',
           },
         ],
       },
@@ -80,7 +80,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -231,6 +231,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Cesar Augusto Cano Echeverri',
+        cargo: 'Experto temático',
+        centro: 'Comercio y Servicios Regional Risaralda',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario la Granja Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -245,25 +266,72 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Daniel Polanco',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jaime Enrique Díaz Reyes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

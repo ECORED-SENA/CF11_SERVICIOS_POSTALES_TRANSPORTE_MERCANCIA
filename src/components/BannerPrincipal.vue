@@ -126,26 +126,26 @@ export default {
     animation: float1 12s ease-in-out infinite
     position: absolute
     top: 0%
-    left: -150%
-    width: 150px
+    left: -155%
+    width: 130px
   &_2
     animation: float1 7s ease-in-out infinite
     position: absolute
     top: 60%
-    left: -145%
+    left: -150%
     width: 75px
   &_3
     animation: float1 10s ease-in-out infinite
     position: absolute
     top: -20%
     left: 95%
-    width: 175px
+    width: 125px
   &_4
     animation: float1 5s ease-in-out infinite
     position: absolute
     top: 95%
     left: 0%
-    width: 120px
+    width: 110px
 
 @keyframes float1
 	0%

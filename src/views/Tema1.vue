@@ -16,7 +16,7 @@
                 img.img04(src='@/assets/curso/tema1/img02B.png')
             .col-lg-8.p-4.p-md-5
               .bloque-texto-a__texto.p-4
-                p La última milla hace referencia al último paso que se realiza en el proceso de entrega de los objetos postales y de las mercancías al destinatario. <strong>Este proceso se conoce también como distribución capilar, es la gestión exclusiva del transporte de paquetería,</strong> servicio que se aplica al último trayecto que se realiza para la entrega final del paquete, el objeto postal o la mercancía al destinatario. La última milla está direccionada a la distribución en la ciudad.
+                p La última milla hace referencia al último paso que se realiza en el proceso de entrega de los objetos postales y de las mercancías al destinatario. Este proceso se conoce también como distribución capilar, es la gestión exclusiva del transporte de paquetería, servicio que se aplica al último trayecto que se realiza para la #[strong entrega final del paquete, el objeto postal o la mercancía al destinatario]. La última milla está direccionada a la distribución en la ciudad.
     
     p.mb-5 El nombre de última milla se genera por ser el último trayecto que recorre la mercancía o el objeto postal antes de llegar a los clientes y distribución capilar, porque los repartos se hacen dentro de la ciudad y para ello se realiza una ramificación o zonificación de la ciudad para planear las entregas.
     
@@ -66,9 +66,9 @@
               span Ver más
               i.fas.fa-link
         
-    p.mb-4 En el mundo de la logística de mercancías el término “<strong>última milla</strong>” representa la última parte del proceso de entrega de un pedido, es decir, cuando el producto es derivado hacia el cliente final. Son las acciones que transcurren desde que el paquete deja el punto de distribución hasta llegar a las manos del consumidor. Dentro de estas acciones se puede encontrar las siguientes:
+    p.mb-4 En el mundo de la logística de mercancías el término “última milla” representa la última parte del proceso de entrega de un pedido, es decir, cuando el producto es derivado hacia el cliente final. Son las acciones que transcurren #[strong desde que el paquete deja el punto de distribución hasta llegar a las manos del consumidor]. Dentro de estas acciones se puede encontrar las siguientes:
 
-    .row.BGIMG01.p-4.mb-5
+    .row.BGIMG01
       .col-lg-12
         SlyderA
           .row.justify-content-center.p-5
@@ -95,14 +95,19 @@
               <br><br>
               h4.mb-3 Cadenas de suministro
               p Todas<strong> las cadenas de suministros están enfocadas en la prestación de servicios con agilidad, eficiencia y eficacia, el tiempo es muy importante en las entregas</strong>, es por todo esto que la gestión de la última milla marca una gran diferencia y es relevante para las organizaciones, apostarle al uso de las herramientas dispuestas para la gestión de este proceso. 
-    p.mb-4 En el comercio de productos, e incluso, la economía se generaba teniendo como base las rutas de transporte que se tenían disponibles, era el prestador del servicio el que establecía o definía los precios del servicio prestado, de esta manera se daba esa conexión incipiente entre el origen de un producto y el destino; <strong>con el paso del tiempo las economías crecen y se genera más producción</strong>, de hecho las empresas trabajan para tener inventarios disponibles. 
-    p.mb-5 En las líneas de producción y ensamble se hace reducción de los tiempos de recepción de las mercancías compradas, ya que <strong>para las empresas no es rentable tener inventarios en sus bodegas, esto les genera costos de almacenamiento y otros gastos que impactan la productividad</strong>, además porque el factor económico es realmente relevante, por ello, se da una mirada diferente tanto al proceso de producción como al de comercialización, los cuales deben ir de la mano.
+    .row
+      .col-10
+      .col-2.position-relative
+        .img-flotante
+          img.w-75(src='@/assets/curso/tema1/img57.svg')
+    p.mb-4 En el comercio de productos, e incluso, la economía se generaba teniendo como base las rutas de transporte que se tenían disponibles, era el prestador del servicio el que establecía o definía los precios del servicio prestado, de esta manera se daba esa conexión incipiente entre el origen de un producto y el destino; con el paso del tiempo las economías crecen y se genera más producción, de hecho las empresas trabajan para tener inventarios disponibles. 
+    p.mb-5 En las líneas de producción y ensamble se hace reducción de los tiempos de recepción de las mercancías compradas, ya que para las empresas no es rentable tener inventarios en sus bodegas, esto les genera costos de almacenamiento y otros gastos que impactan la productividad, además porque el factor económico es realmente relevante, por ello, se da una mirada diferente tanto al proceso de producción como al de comercialización, los cuales deben ir de la mano.
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.cajon.color-primario.p-4.mb-4
-        p En este ciclo de desarrollo del servicio de transporte no solo para los servicios postales sino también para las mercancías se empieza a usar herramientas tecnológicas para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, <strong>los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad</strong>, lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
+        p En este ciclo de desarrollo del servicio de transporte no solo, para los servicios postales, sino, también para las mercancías, se empieza a #[strong usar herramientas tecnológicas] para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad, lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Especificaciones de mercancías y objetos postales
 
     .row.justify-content-center.align-items-center.mb-5     
@@ -110,7 +115,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img11.png')
       .col-lg-7       
-        p Las especificaciones o características de las mercancías son el parámetro para definir el tipo de manipulación que se debe dar; por consiguiente, la preparación de los equipos, de las herramientas de cargue y descargue y el almacenamiento que debe darse permite garantizar el buen estado de los objetos postales y de las mercancías que están en tránsito al lugar de destino, por tanto, las especificaciones o características de las mercancías son condiciones para el diseño de espacios para almacenar, así como la necesidad y el tipo de estanterías más el sistema de almacenamiento, además de establecer todas las normas de seguridad y salud en el trabajo que se deben implementar para la protección no solo de las mercancías, sino también de todo el equipo de operarios logísticos. 
+        p Las especificaciones o características de las mercancías son el parámetro para definir el tipo de manipulación que se debe dar; por consiguiente, la preparación de los equipos, de las herramientas de cargue y descargue y el almacenamiento que debe darse permite garantizar el buen estado de los objetos postales y de las mercancías que están en tránsito al lugar de destino, por tanto, las especificaciones o características de las mercancías son condiciones para el diseño de espacios para almacenar, así como, la necesidad y el tipo de estanterías más el sistema de almacenamiento, además, de establecer todas las normas de seguridad y salud en el trabajo que se deben implementar para la protección no solo de las mercancías, sino, también de todo el equipo de operarios logísticos. 
     p.mb-4 Para la distribución de las mercancías se debe tener en cuenta aspectos como:
 
     .row.justify-content-center
@@ -170,7 +175,7 @@
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
               .BG03.p-4
-                h4.text-center.text-white Punto de posición o detección
+                h4.text-center Punto de posición o detección
           .col-2.mb-2(data-aos="fade-down")
             img(src='@/assets/curso/tema1/img17.svg')
           .col-12.BG05.p-4.mb-0(data-aos="fade-down")
@@ -207,7 +212,7 @@
             h4.text-center Reconocimiento de horarios de reparto en la redistribución
 
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Pedidos
 
     .row.justify-content-center.align-items-center.mb-5     
@@ -220,7 +225,7 @@
 
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/k5OaWtEq1X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.cajon.color-primario.p-4.mb-4
@@ -242,7 +247,7 @@
               i.fas.fa-link
 
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Equipos
 
     .row.justify-content-center.align-items-center.mb-5     
@@ -250,7 +255,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.png')
       .col-lg-7       
-        p Todos los equipos mecanizados especializados para la administración, sostenimiento y manipulación de los objetos postales están debidamente determinados de acuerdo con las especificaciones de peso, volumen y/o características especiales que sean requeridas para dichas operaciones. Normalmente, los equipos para este tipo de operaciones son los montacargas, los transpaletas, los preparadores de pedido y las carretillas convencionales/contrapesadas. A continuación, se presenta el siguiente recurso para identificar cada uno de ellos de manera gráfica:
+        p Todos los equipos mecanizados especializados para la administración, sostenimiento y manipulación de los objetos postales están debidamente determinados de acuerdo con las especificaciones de peso, volumen y características especiales que sean requeridas para dichas operaciones. Normalmente, los equipos para este tipo de operaciones son los montacargas, los transpaletas, los preparadores de pedido y las carretillas convencionales/contrapesadas. A continuación, se presenta el siguiente recurso para identificar cada uno de ellos de manera gráfica:
 
     SlyderF.mb-5(columnas="col-lg-6")
       .row.justify-content-center.p-4
@@ -284,7 +289,7 @@
             .col-1(data-aos="fade-down")
               img.img06(src='@/assets/curso/tema1/img25.png')
             .col-lg-11.col-md-11(data-aos="fade-left")
-              p.mb-0 Los equipos de los que disponen las empresas de servicios postales y transporte de mercancías <strong>para realizar las diferentes tareas de movilización de la carga deben ser operados por operadores logísticos certificados</strong>, esto es garantía para el buen manejo y minimizar las posibilidades de accidentes durante la manipulación de los mismos, por ello, siempre se debe tener sentido de autocuidado. 
+              p.mb-0 Los equipos de los que disponen las empresas de servicios postales y transporte de mercancías <strong>para realizar las diferentes tareas de movilización de la carga deben ser operados por operadores logísticos certificados</strong>, esto es garantía para el buen manejo y para minimizar las posibilidades de accidentes durante la manipulación de los mismos, por ello, siempre se debe tener sentido de autocuidado. 
     
     .row.align-items-center.BG01.p-4.mb-5
       .col-lg-1.col-md-1.col-2
@@ -300,7 +305,7 @@
               i.fas.fa-link
 
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Procesos de distribución
 
     p.mb-5 Cada empresa de servicios postales o transporte de mercancías determina sus procesos internos de distribución de acuerdo con el modelo de negocio y el objeto social, de estos se desprenden los procedimientos y de ellos los indicadores de gestión con los cuales se permiten la mejora continua, atención y servicio al cliente; sin embargo, para el caso de la “última milla” del proceso de movilización y entrega de objetos postales existen procesos de línea que deben ser seguidos para completar la entrega a satisfacción al cliente:
@@ -337,11 +342,11 @@
               span 7
             | Registro de entrega al cliente final, físico y digital, el cual se debe conservar.
 
-    p.mb-5 A continuación, se invita a visitar el siguiente recurso educativo en el que puede profundizar la trazabilidad en los procesos logísticos.
+    p.mb-5 A continuación, se invita a visitar el siguiente recurso educativo en el que se puede profundizar la trazabilidad en los procesos logísticos.
 
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PUOOkuzzSnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p De manera que el proceso de línea en la entrega contempla:
 
@@ -362,7 +367,7 @@
               i.fas.fa-link
 
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Disposición de carga de acuerdo con el plan de ruta
 
     p.mb-4 A la vista de la llegada de los productos al sitio de redistribución para el inicio de la entrega a los  clientes finales se hace necesario en el caso de los vehículos que realizan el proceso tener un plan de ruta de cada uno de ellos, con el objetivo de optimizar los tiempos de entrega y costos de operación. Este paso es fundamental en la satisfacción del cliente final y en el cumplimiento del contrato de transporte firmado con el remitente.
@@ -385,7 +390,7 @@
               i.fas.fa-link
 
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 Normativa de movilización de cargas
 
     p.mb-4 En Colombia se cuenta con una amplia normatividad para el transporte de carga, dichas normas contienen las obligaciones a que están sujetas todas las empresas que prestan el servicio de carga en el territorio nacional.
@@ -403,7 +408,7 @@
           .col-3
             img(src='@/assets/curso/tema1/img29.svg')
           .col-12
-            p Ley 336 de 1966, esta ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
+            p Ley 336 de 1966, esta Ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
       .col-lg-4.p-4(data-aos="fade-left")
         .row.BG14.p-4
           .col-3
@@ -421,7 +426,7 @@
       .col-lg-10
         .tabla-a.color-primario.mb-5 
           table
-            caption <strong>Nota. Tomado de la Resolución 4100 de 2004 del Ministerio de Transporte.</strong> https://web.mintransporte.gov.co/jspui/bitstream/001/4012/1/Resolucion_4100_2004.pdf 
+            caption <strong>Nota. Tomado de la Resolución 4100 de 2004 del Ministerio de Transporte.</strong> <a href="https://web.mintransporte.gov.co/jspui/bitstream/001/4012/1/Resolucion_4100_2004.pdf" target="_blank">https://web.mintransporte.gov.co/jspui/bitstream/001/4012/1/Resolucion_4100_2004.pdf </a>
             thead
               tr
                 th Configuración
@@ -518,7 +523,7 @@
                 td 
                   img(src='@/assets/curso/tema1/img42.svg')                  
                 td 
-                  p.text-center Camión de tres ejes, dobletroque, con remolque de tres ejes.
+                  p.text-center Camión de tres ejes, doble troque, con remolque de tres ejes.
               tr
                 td 
                   p.text-center C4 R2
@@ -541,7 +546,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-secundario
-                p.mb-0 Eje de dos llantas - peso máximo por eje 6.000 Kl 
+                p.mb-0 Eje de dos llantas - peso máximo por eje <br> 6.000 Kg 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img44.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -549,7 +554,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-primario                        
-                p.mb-0 Cuatro llantas - peso máximo por eje 11.000 Kl 
+                p.mb-0 Cuatro llantas - peso máximo por eje <br> 11.000 Kg 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img45.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -557,7 +562,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-acento-contenido                        
-                p.mb-0 Cuatro llantas  y eje tandem -  peso máximo por eje de 11.000 Kg  
+                p.mb-0 Cuatro llantas  y eje tándem -  peso máximo por eje de 11.000 Kg  
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -565,7 +570,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-acento-botones
-                p.mb-0 Seis llantas y eje tandem - peso máximo por eje de 17.000 Kg  
+                p.mb-0 Seis llantas y eje tándem - peso máximo por eje de 17.000 Kg  
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -573,12 +578,12 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-secundario                        
-                p.mb-0 Ocho llantas y eje tandem - peso máximo por eje de 22.000 Kg  
+                p.mb-0 Ocho llantas y eje tándem - peso máximo por eje de 22.000 Kg  
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.svg')})`}")
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.7 Aplicación de <em>software</em>
 
     .row.justify-content-center.align-items-center.mb-5     
@@ -602,7 +607,7 @@
               i.fas.fa-link
     
     separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.8 Información documentada de la última milla
 
     .row.justify-content-center.align-items-center.mb-5     
