@@ -64,16 +64,22 @@
   background-color: #FF9D93
   border-radius: 15px
   height: 450px
+  border-left: 8px solid #fff
+  border-right: 8px solid #fff
 
 .BG13
   background-color: #89D0C7
   border-radius: 15px
   height: 450px
+  border-left: 8px solid #fff
+  border-right: 8px solid #fff
 
 .BG14
   background-color: #FEE8B3
   border-radius: 15px
   height: 450px
+  border-left: 8px solid #fff
+  border-right: 8px solid #fff
 
 .BG15
   background-color: #fff
@@ -89,12 +95,18 @@
 
 .BG18
   background-color: #FED981
+  border-left: 8px solid #fff
+  border-right: 8px solid #fff
 
 .BG19
   background-color: #5263E2
+  border-left: 8px solid #fff
+  border-right: 8px solid #fff
 
 .BG20
   background-color:#FF8578
+  border-left: 8px solid #fff
+  border-right: 8px solid #fff
   
 .BG21
   background: #fff
@@ -130,6 +142,7 @@
 
 .img04
   position: relative
+  margin-top: -26px
   right: 75px
   max-width: 200% !important
   width: 160%
@@ -146,6 +159,12 @@
   top: 50px
 
 @media screen and (max-width: 767px) and (min-width: 0px)
+  .img04
+    position: relative
+    margin-bottom: -23px
+    right: 39px
+    max-width: 200% !important
+    width: 160%
   .img06
     top: -20px
     left: 150px
@@ -160,6 +179,12 @@
     right: 75px
     max-width: 250%
     width: 230%
+  .img04
+    position: relative
+    margin-top: 85px
+    right: 75px
+    max-width: 200% !important
+    width: 160%
   .img06
     position: relative
     right: 60px
@@ -197,10 +222,16 @@
 .tarjeta-slide__img
   background-size: 119%
 
-.img-flotante
-  position: absolute
-  animation: float 3s ease-out infinite alternate
-  top: -35%
-  width: 100%
-  transform-origin: top
-  animation-delay: 1s
+.imagen-adornos-flotantes
+  position: relative
+  &__img
+    img
+      position: relative
+      z-index: 99
+      animation: float 3s ease-in-out infinite alternate
+
+@keyframes float
+  0%
+    transform: translateY(10px)
+  100%
+    transform: translateY(0px)

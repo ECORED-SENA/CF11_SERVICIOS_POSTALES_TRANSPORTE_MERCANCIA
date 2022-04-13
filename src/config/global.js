@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Última milla',
     descripcionCurso:
-      'La llegada de los objetos postales al sitio final de entrega normalmente arriba de vehículos de carga o de volumen masivo implica realizar una maniobra de redistribución a un nuevo vehículo de menor tamaño, para llevar  a cabo la entrega al cliente final. <br><br> Trazabilidad transaccional de los objetos postales en el último tramo de llegada al sitio final de entrega, que se relaciona con la recepción, almacenamiento, distribución y entrega.',
+      'En el presente componente formativo se estudiará la trazabilidad transaccional de los objetos postales en el último tramo de llegada hasta el sitio final de entrega, el cual se relaciona con la recepción, almacenamiento, redistribución y entrega final, y cuyo objetivo es satisfacer  la entrega de productos con oportunidad y eficiencia, generando reducción de costos y optimización de mano de obra.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

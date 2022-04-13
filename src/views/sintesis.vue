@@ -12,33 +12,30 @@
       .col-lg-12.mb-4
         p El siguiente mapa conceptual resume las ventajas del proceso de última milla:
       
-      .col-lg-4.p-3
-        .BG18
-          .row
-            .col-12.mb-3
-              figure
-                img(src='@/assets/curso/tema1/img54.png')
-            .col-12.p-5
-              h3 OBJETIVO
-              p Satisfacer entrega de productos con oportunidad y eficiencia, generando reducción de costos y optimización de mano de obra.
-      .col-lg-4.p-3
-        .BG19
-          .row
-            .col-12.mb-3
-              figure
-                img(src='@/assets/curso/tema1/img55.png')
-            .col-12.p-5              
-              h3.text-white IMPACTO
-              p.text-white Planeación de entregas ordenadas, satisfacción del cliente por entregas oportunas y por disponibilidad constante de información. 
-      .col-lg-4.p-3
-        .BG20
-          .row
-            .col-12.mb-3
-              figure
-                img(src='@/assets/curso/tema1/img56.png')
-            .col-12.p-5
-              h3 CONCLUSIÓN
-              p El cliente es el centro de atención, el llegar al destino final con el objeto postal o la mercancía genera satisfacción al cumplir con la promesa de valor.
+      .col-lg-4.BG18
+        .row
+          .col-12.p-0.mb-3
+            figure.h-100
+              img(src='@/assets/curso/tema1/img54.png')
+          .col-12.p-4
+            h3 OBJETIVO
+            p Satisfacer entrega de productos con oportunidad y eficiencia, generando reducción de costos y optimización de mano de obra.
+      .col-lg-4.BG19
+        .row
+          .col-12.p-0.mb-3
+            figure.h-100
+              img(src='@/assets/curso/tema1/img55.png')
+          .col-12.p-4
+            h3.text-white IMPACTO
+            p.text-white Planeación de entregas ordenadas, satisfacción del cliente por entregas oportunas y por disponibilidad constante de información. 
+      .col-lg-4.BG20
+        .row
+          .col-12.p-0.mb-3
+            figure.h-100
+              img(src='@/assets/curso/tema1/img56.png')
+          .col-12.p-4
+            h3 CONCLUSIÓN
+            p El cliente es el centro de atención, el llegar al destino final con el objeto postal o la mercancía genera satisfacción al cumplir con la promesa de valor.
 
 
 

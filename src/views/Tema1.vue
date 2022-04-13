@@ -8,13 +8,13 @@
       h1 Gestionar el proceso de última milla 
 
     .row.justify-content-center.mb-5
-      .col-lg-8
-        .bloque-texto-a.color-acento-contenido.mb-5 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.col-sm-8.mb-0
+      .col-lg-8.col-md-10
+        .bloque-texto-a.color-acento-contenido.mb-4
+          .row.align-items-center.justify-content-between.m-0
+            .col-lg-4.col-6.mb-0
               figure(data-aos="fade-right")
                 img.img04(src='@/assets/curso/tema1/img02B.png')
-            .col-lg-8.p-4.p-md-5
+            .col-lg-8.p-lg-5.p-4
               .bloque-texto-a__texto.p-4
                 p La última milla hace referencia al último paso que se realiza en el proceso de entrega de los objetos postales y de las mercancías al destinatario. Este proceso se conoce también como distribución capilar, es la gestión exclusiva del transporte de paquetería, servicio que se aplica al último trayecto que se realiza para la #[strong entrega final del paquete, el objeto postal o la mercancía al destinatario]. La última milla está direccionada a la distribución en la ciudad.
     
@@ -97,9 +97,9 @@
               p Todas<strong> las cadenas de suministros están enfocadas en la prestación de servicios con agilidad, eficiencia y eficacia, el tiempo es muy importante en las entregas</strong>, es por todo esto que la gestión de la última milla marca una gran diferencia y es relevante para las organizaciones, apostarle al uso de las herramientas dispuestas para la gestión de este proceso. 
     .row
       .col-10
-      .col-2.position-relative
-        .img-flotante
-          img.w-75(src='@/assets/curso/tema1/img57.svg')
+      .col-1
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: 10% ; top: -65px; bottom: ; width: 200% ; max-width: 200%")
+
     p.mb-4 En el comercio de productos, e incluso, la economía se generaba teniendo como base las rutas de transporte que se tenían disponibles, era el prestador del servicio el que establecía o definía los precios del servicio prestado, de esta manera se daba esa conexión incipiente entre el origen de un producto y el destino; con el paso del tiempo las economías crecen y se genera más producción, de hecho las empresas trabajan para tener inventarios disponibles. 
     p.mb-5 En las líneas de producción y ensamble se hace reducción de los tiempos de recepción de las mercancías compradas, ya que para las empresas no es rentable tener inventarios en sus bodegas, esto les genera costos de almacenamiento y otros gastos que impactan la productividad, además porque el factor económico es realmente relevante, por ello, se da una mirada diferente tanto al proceso de producción como al de comercialización, los cuales deben ir de la mano.
 
@@ -114,6 +114,7 @@
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img11.png')
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -65px; bottom: ; width: 150px ")
       .col-lg-7       
         p Las especificaciones o características de las mercancías son el parámetro para definir el tipo de manipulación que se debe dar; por consiguiente, la preparación de los equipos, de las herramientas de cargue y descargue y el almacenamiento que debe darse permite garantizar el buen estado de los objetos postales y de las mercancías que están en tránsito al lugar de destino, por tanto, las especificaciones o características de las mercancías son condiciones para el diseño de espacios para almacenar, así como, la necesidad y el tipo de estanterías más el sistema de almacenamiento, además, de establecer todas las normas de seguridad y salud en el trabajo que se deben implementar para la protección no solo de las mercancías, sino, también de todo el equipo de operarios logísticos. 
     p.mb-4 Para la distribución de las mercancías se debe tener en cuenta aspectos como:
@@ -125,14 +126,13 @@
       .col-lg-12.mb-4
         p Para entrar al proceso de última milla se debe dar <strong>cumplimiento a requerimientos mínimos de operación o información</strong>, estos requerimientos son los siguientes:
 
-    .row.mb-5  
+    .row 
       .col-1
       .col-lg-11
         .row.justify-content-center.BG02
           .col-lg-2.col-md-2.col-3.mb-4
             figure(data-aos="fade-right")
               img.img01(src='@/assets/curso/tema1/img13.svg')
-            img.img02(src='@/assets/curso/tema1/img14.svg')
           .col-lg-9.col-md-9.col-12.py-4
             ol.lista-ol--cuadro.lista-ol--separador
               li 
@@ -167,7 +167,11 @@
                 .lista-ol--cuadro__vineta
                   span 8
                 | Reconocimiento de los horarios de reparto en redistribución.  
-      
+    .row
+      .col-10
+      .col-1
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: 10% ; top: -65px; bottom: ; width: 200% ; max-width: 200%")
+
     .row.justify-content-center
       .col-lg-4.mb-0.mb-lg-4.mx-2
         .row.justify-content-center
@@ -219,6 +223,7 @@
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img18.png')
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -65px; bottom: ; width: 150px ")
       .col-lg-7       
         p La preparación de pedidos para última milla se denomina <em>picking</em>, esta etapa en el proceso logística es de mucha importancia para todos los centros de distribución, en este proceso se puede generar reproceso si no se hace la preparación de los pedidos de forma ordenada y atenta, es la garantía de que el objeto postal o mercancía embalada sea el apropiado para continuar con el recorrido al destino final; es por ello que la etapa de organización y preparación de las mercancías demanda eficiencia para no ver afectada la operación y por consiguiente, dar cumplimiento a las promesas de valor de los clientes y no menoscabar la productividad de la empresa.  
     p.mb-5 Entonces, si aún no tiene claro lo que es el <em>picking</em>, lo puede aclarar a través del siguiente recurso:
@@ -254,6 +259,7 @@
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.png')
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -65px; bottom: ; width: 150px ")
       .col-lg-7       
         p Todos los equipos mecanizados especializados para la administración, sostenimiento y manipulación de los objetos postales están debidamente determinados de acuerdo con las especificaciones de peso, volumen y características especiales que sean requeridas para dichas operaciones. Normalmente, los equipos para este tipo de operaciones son los montacargas, los transpaletas, los preparadores de pedido y las carretillas convencionales/contrapesadas. A continuación, se presenta el siguiente recurso para identificar cada uno de ellos de manera gráfica:
 
@@ -396,22 +402,22 @@
     p.mb-4 En Colombia se cuenta con una amplia normatividad para el transporte de carga, dichas normas contienen las obligaciones a que están sujetas todas las empresas que prestan el servicio de carga en el territorio nacional.
     p.mb-4 Dicha normativa es: 
 
-    .row.justify-content-center.mb-4
-      .col-lg-4.p-4(data-aos="fade-right")
-        .row.BG12.p-4
-          .col-3
+    .row.mb-4
+      .col-lg-4.BG12.p-4(data-aos="fade-right")
+        .row 
+          .col-3.mb-4
             img(src='@/assets/curso/tema1/img28.svg')
           .col-12
             p Ley 105 de 1993, Art. 3, en la que se define el transporte público como una industria que debe garantizar la movilización de personas, cosas y objetos, haciendo uso de vehículos apropiados según las necesidades de los sectores, el servicio que se presta de transporte público debe ser bajo condiciones de calidad y seguridad, recibiendo a cambio un pago o contraprestación económica (Agencia Nacional de Infraestructura, 1993).
-      .col-lg-4.p-4(data-aos="flip-up")
-        .row.BG13.p-4
-          .col-3
+      .col-lg-4.BG13.p-4(data-aos="flip-up")
+        .row
+          .col-3.mb-4
             img(src='@/assets/curso/tema1/img29.svg')
           .col-12
             p Ley 336 de 1966, esta Ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
-      .col-lg-4.p-4(data-aos="fade-left")
-        .row.BG14.p-4
-          .col-3
+      .col-lg-4.BG14.p-4(data-aos="fade-left")
+        .row
+          .col-3.mb-4
             img(src='@/assets/curso/tema1/img29.svg')
           .col-12
             p Resolución 004100 del 28 de diciembre de 2004, esta resolución reglamenta la tipología de los vehículos automotores dispuestos para la carga de transporte terrestre, también regula los requisitos relacionados con las dimensiones, pesos máximos por vehículos y por ejes, la operación en la red vial en todo el territorio nacional según definición, designación y clasificación registradas en la norma técnica colombiana NTC 4788 donde se encuentra la tipología para los vehículos de transporte de carga terrestre.
@@ -590,6 +596,7 @@
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img49.png')
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -90px; bottom: ; width: 150px ")
       .col-lg-7       
         p Las plataformas de información para el manejo de los objetos postales deben ser integrales, dicha herramienta ofimática debe permitir el proceso de administración de la información, realizar registros documentales digitales que rigen (la solicitud del cliente para la prestación del servicio) hasta el destino final (entrega del objeto postal al cliente) y la generación de informes según los parámetros de la información que se requiera procesar. Lo anterior quiere decir que el <em>software</em> aplicable para el proceso de última milla ya viene integrado en el control de sus procesos dentro de la plataforma principal de gestión  del operador de servicios postales y del transporte de mercancías.
     
@@ -614,6 +621,7 @@
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img50.png')
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -105px; bottom: ; width: 150px ")
       .col-lg-7       
         p El <em>software</em> logístico de última milla contiene opciones para hacer seguimiento a las entregas en periodos establecidos, este <em>software</em> permite que el conductor de los vehículos conozca la hoja de ruta, así como las especificaciones establecidas para las entregas y así dar cumplimiento a las entregas en las horas establecidas, permite también que se registre a través de los dispositivos móviles las entregas efectivas y puede acompañar la entrega de evidencias como firmas e incluso fotografías y, las entregas no efectivas también son reportadas en tiempo real, esta información en línea es compartida con el usuario o cliente donde conoce los pormenores y los detalles del avance de la entrega. 
 
