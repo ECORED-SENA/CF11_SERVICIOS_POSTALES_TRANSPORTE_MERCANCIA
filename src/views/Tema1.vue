@@ -404,23 +404,17 @@
 
     .row.mb-4
       .col-lg-4.BG12.p-4(data-aos="fade-right")
-        .row 
-          .col-3.mb-4
-            img(src='@/assets/curso/tema1/img28.svg')
-          .col-12
-            p Ley 105 de 1993, Art. 3, en la que se define el transporte público como una industria que debe garantizar la movilización de personas, cosas y objetos, haciendo uso de vehículos apropiados según las necesidades de los sectores, el servicio que se presta de transporte público debe ser bajo condiciones de calidad y seguridad, recibiendo a cambio un pago o contraprestación económica (Agencia Nacional de Infraestructura, 1993).
+        figure.mb-4  
+          img.w-25(src='@/assets/curso/tema1/img28.svg')
+        p Ley 105 de 1993, Art. 3, en la que se define el transporte público como una industria que debe garantizar la movilización de personas, cosas y objetos, haciendo uso de vehículos apropiados según las necesidades de los sectores, el servicio que se presta de transporte público debe ser bajo condiciones de calidad y seguridad, recibiendo a cambio un pago o contraprestación económica (Agencia Nacional de Infraestructura, 1993).
       .col-lg-4.BG13.p-4(data-aos="flip-up")
-        .row
-          .col-3.mb-4
-            img(src='@/assets/curso/tema1/img29.svg')
-          .col-12
-            p Ley 336 de 1966, esta Ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
+        figure.mb-4  
+          img.w-25(src='@/assets/curso/tema1/img29.svg')
+        p Ley 336 de 1966, esta Ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
       .col-lg-4.BG14.p-4(data-aos="fade-left")
-        .row
-          .col-3.mb-4
-            img(src='@/assets/curso/tema1/img29.svg')
-          .col-12
-            p Resolución 004100 del 28 de diciembre de 2004, esta resolución reglamenta la tipología de los vehículos automotores dispuestos para la carga de transporte terrestre, también regula los requisitos relacionados con las dimensiones, pesos máximos por vehículos y por ejes, la operación en la red vial en todo el territorio nacional según definición, designación y clasificación registradas en la norma técnica colombiana NTC 4788 donde se encuentra la tipología para los vehículos de transporte de carga terrestre.
+        figure.mb-4  
+          img.w-25(src='@/assets/curso/tema1/img29.svg')
+        p Resolución 004100 del 28 de diciembre de 2004, esta resolución reglamenta la tipología de los vehículos automotores dispuestos para la carga de transporte terrestre, también regula los requisitos relacionados con las dimensiones, pesos máximos por vehículos y por ejes, la operación en la red vial en todo el territorio nacional según definición, designación y clasificación registradas en la norma técnica colombiana NTC 4788 donde se encuentra la tipología para los vehículos de transporte de carga terrestre.
 
     p.mb-4 Así entonces, las siguientes imágenes presentan esquemas con la configuración de los vehículos de carga, teniendo en cuenta la disposición de los ejes, ver figura 1.
 

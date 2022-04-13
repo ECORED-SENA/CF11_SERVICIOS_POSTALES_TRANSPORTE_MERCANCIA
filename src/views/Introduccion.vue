@@ -14,7 +14,9 @@
         <br><br>
         p Los diferentes sectores de la industria han experimentado constantemente el cambio en la gestión de la actividad económica, la expansión o crecimiento que todas las organizaciones buscan día a día con el objeto de permanecer en el mercado, unido a esto, el auge y crecimiento de las ventas en línea hacen que continuamente estén en la búsqueda de aliados estratégicos que les apoyen el proceso de distribución de los productos, desde la recogida hasta la llegada al lugar de destino, esta demanda hace que las empresas de servicios postales y transporte de mercancías estén siempre atentas al mercado para innovar y así ofrecer tecnología de punta a sus clientes, además apoyar o participar en el proceso de distribución de los productos y ser cómplices de la atención a los clientes de estas empresas productoras o comercializadoras.
       .col-lg-4.mb-5
-        img(src='@/assets/curso/tema1/img01.png')
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img01.png')
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img58.svg" style="left: ; right: -55% ; top: -115px; bottom: ; width: 130px ")
       .col-lg-10
         .cajon.color-primario.mb-4
           .row.justify-content-center.py-5
