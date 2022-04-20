@@ -31,8 +31,8 @@
               .tarjeta-slide__contenedor
                 .tarjeta-slide__contenido.p-5
                   <br><br><br><br>
-                  h4.text-center Primera instancia:                   
-                  p.text-center busca la satisfacción del cliente realizando entregas en tiempos más cortos.
+                  h4.text-center Primera instancia                  
+                  p.text-center Busca la satisfacción del cliente realizando entregas en tiempos más cortos.
                   <br><br><br><br><br><br><br><br>
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img03.png')})`}")
           .col-lg-6.mb-4.mb-xl-0(data-aos="fade-left")
@@ -41,8 +41,8 @@
               .tarjeta-slide__contenedor
                 .tarjeta-slide__contenido.p-5
                   <br><br><br><br>
-                  h4.text-center Segunda instancia:  
-                  p.text-center busca ajustar o disminuir costos en transporte y mano de obra, para las empresas que prestan servicios de transporte y logística.
+                  h4.text-center Segunda instancia  
+                  p.text-center Busca ajustar o disminuir costos en transporte y mano de obra, para las empresas que prestan servicios de transporte y logística.
                   <br><br><br><br><br><br><br><br>
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img04.png')})`}")
 
@@ -59,14 +59,14 @@
           img(src='@/assets/curso/tema1/img06.svg')
       .col-lg-11.col-md-11.col-10
         .row
-          .col-11
+          .col-lg-9
             p En caso de querer ampliar la información sobre <strong>¿qué es la última milla?</strong> ingrese al siguiente enlace:
-          .col-6(data-aos="fade-left")
+          .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=IzJ0FcP3Cy8" target="_blank")
               span Ver más
               i.fas.fa-link
-        
-    p.mb-4 En el mundo de la logística de mercancías el término “última milla” representa la última parte del proceso de entrega de un pedido, es decir, cuando el producto es derivado hacia el cliente final. Son las acciones que transcurren #[strong desde que el paquete deja el punto de distribución hasta llegar a las manos del consumidor]. Dentro de estas acciones se puede encontrar las siguientes:
+    br   
+    p.mb-5 En el mundo de la logística de mercancías el término “última milla” representa la última parte del proceso de entrega de un pedido, es decir, cuando el producto es derivado hacia el cliente final. Son las acciones que transcurren #[strong desde que el paquete deja el punto de distribución hasta llegar a las manos del consumidor]. Dentro de estas acciones se puede encontrar las siguientes:
 
     .row.BGIMG01
       .col-lg-12
@@ -105,7 +105,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.cajon.color-primario.p-4.mb-4
-        p En este ciclo de desarrollo del servicio de transporte no solo, para los servicios postales, sino, también para las mercancías, se empieza a #[strong usar herramientas tecnológicas] para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad, lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
+        p En este ciclo de desarrollo del servicio de transporte no solo, para los servicios postales, sino, también para las mercancías, se empieza a usar herramientas tecnológicas para incrementar la productividad y direccionar a las organizaciones hacia procesos más sostenibles; por lo tanto, #[strong los prestadores de servicios de transporte toman gran importancia en los diferentes sectores de la economía, hoy en día las organizaciones en un alto porcentaje implementan el proceso de una producción basada en la demanda, en la disponibilidad de herramientas ofimáticas que facilitan la hiperconectividad], lo cual marca una gran diferencia para los clientes y las ofertas de productos; la conectividad permite llegar a más clientes y ganar más mercado, cuando se cuenta con un producto de calidad y unos aliados estratégicos en transporte comprometidos con el resultado del proceso.
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Especificaciones de mercancías y objetos postales
@@ -174,14 +174,15 @@
 
     .row.justify-content-center
       .col-lg-4.mb-0.mb-lg-4.mx-2
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-12.mb-0(data-aos="fade-down")
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
               .BG03.p-4
-                h4.text-center Punto de posición o detección
+                h4.text-center.text-white Punto de posición o detección
           .col-2.mb-2(data-aos="fade-down")
             img(src='@/assets/curso/tema1/img17.svg')
+
           .col-12.BG05.p-4.mb-0(data-aos="fade-down")
             h4.text-center Identificación de peso y volumen
             br
@@ -196,7 +197,7 @@
             h4.text-center Reconocimiento de vehículos para la redistribución 
 
       .col-lg-4.mb-5.mx-2
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-12.mb-0(data-aos="fade-down")
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
@@ -225,7 +226,7 @@
           img(src='@/assets/curso/tema1/img18.png')
         .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -65px; bottom: ; width: 150px ")
       .col-lg-7       
-        p La preparación de pedidos para última milla se denomina <em>picking</em>, esta etapa en el proceso logística es de mucha importancia para todos los centros de distribución, en este proceso se puede generar reproceso si no se hace la preparación de los pedidos de forma ordenada y atenta, es la garantía de que el objeto postal o mercancía embalada sea el apropiado para continuar con el recorrido al destino final; es por ello que la etapa de organización y preparación de las mercancías demanda eficiencia para no ver afectada la operación y por consiguiente, dar cumplimiento a las promesas de valor de los clientes y no menoscabar la productividad de la empresa.  
+        p La preparación de pedidos para última milla #[strong se denomina #[i picking]], esta etapa en el proceso logística es de mucha importancia para todos los centros de distribución, en este proceso se puede generar reproceso si no se hace la preparación de los pedidos de forma ordenada y atenta, es la garantía de que el objeto postal o mercancía embalada sea el apropiado para continuar con el recorrido al destino final; es por ello que la etapa de organización y preparación de las mercancías demanda eficiencia para no ver afectada la operación y por consiguiente, dar cumplimiento a las promesas de valor de los clientes y no menoscabar la productividad de la empresa.  
     p.mb-5 Entonces, si aún no tiene claro lo que es el <em>picking</em>, lo puede aclarar a través del siguiente recurso:
 
     figure.mb-5(data-aos="flip-up")
@@ -244,9 +245,9 @@
           img(src='@/assets/curso/tema1/img06.svg')
       .col-lg-11.col-md-11.col-10
         .row
-          .col-11
+          .col-lg-9
             p En caso de querer ampliar la información sobre el <strong>proceso en un centro de distribución</strong>, ingrese al siguiente enlace o material complementario:
-          .col-6(data-aos="fade-left")
+          .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=BE8XH9LkymY" target="_blank")
               span Ver más
               i.fas.fa-link
@@ -255,7 +256,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Equipos
 
-    .row.justify-content-center.align-items-center.mb-5     
+    .row.justify-content-center.align-items-center     
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.png')
@@ -303,9 +304,9 @@
           img(src='@/assets/curso/tema1/img06.svg')
       .col-lg-11.col-md-11.col-10
         .row
-          .col-11
+          .col-lg-9
             p En caso de ser necesario ampliar la información sobre <strong>el equipo de manipulación de materiales y tecnología dentro del centro de distribución</strong> ingrese al siguiente enlace o material complementario:
-          .col-6(data-aos="fade-left")
+          .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=pcyYZjcsd-o" target="_blank")
               span Ver más
               i.fas.fa-link
@@ -365,9 +366,9 @@
           img(src='@/assets/curso/tema1/img06.svg')
       .col-lg-11.col-md-11.col-10
         .row
-          .col-11
+          .col-lg-9
             p En caso de desear ampliar la información y conocer un poco sobre el “<strong>Centro de distribución de mercado libre - Así funciona</strong>”, ingrese al siguiente enlace o material complementario: 
-          .col-6(data-aos="fade-left")
+          .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8eFhnpvaRB0" target="_blank")
               span Ver más
               i.fas.fa-link
@@ -388,9 +389,9 @@
           img(src='@/assets/curso/tema1/img06.svg')
       .col-lg-11.col-md-11.col-10
         .row
-          .col-11
+          .col-lg-9
             p En caso de ser necesario ampliar la información sobre <strong>la disposición de la carga</strong>, ingrese al siguiente enlace o material complementario:
-          .col-6(data-aos="fade-left")
+          .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=A73wlrqsNw0" target="_blank")
               span Ver más
               i.fas.fa-link
@@ -410,7 +411,7 @@
       .col-lg-4.BG13.p-4(data-aos="flip-up")
         figure.mb-4  
           img.w-25(src='@/assets/curso/tema1/img29.svg')
-        p Ley 336 de 1966, esta Ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
+        p Ley 336 de 1966, esta ley unifica los criterios para reglamentar y regular el transporte público en Colombia, tanto el transporte aéreo, férreo, marítimo, masivo, fluvial y terrestre, así como la operación dentro del territorio nacional (Función Pública, 1996).
       .col-lg-4.BG14.p-4(data-aos="fade-left")
         figure.mb-4  
           img.w-25(src='@/assets/curso/tema1/img29.svg')
@@ -546,7 +547,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-secundario
-                p.mb-0 Eje de dos llantas - peso máximo por eje <br> 6.000 Kg 
+                p.mb-0 Eje de dos llantas - peso máximo por eje <br> 6.000 Kg. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img44.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -554,7 +555,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-primario                        
-                p.mb-0 Cuatro llantas - peso máximo por eje <br> 11.000 Kg 
+                p.mb-0 Cuatro llantas - peso máximo por eje <br> 11.000 Kg. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img45.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -562,7 +563,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-acento-contenido                        
-                p.mb-0 Cuatro llantas  y eje tándem -  peso máximo por eje de 11.000 Kg  
+                p.mb-0 Cuatro llantas  y eje tándem -  peso máximo por eje de 11.000 Kg. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -570,7 +571,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-acento-botones
-                p.mb-0 Seis llantas y eje tándem - peso máximo por eje de 17.000 Kg  
+                p.mb-0 Seis llantas y eje tándem - peso máximo por eje de 17.000 Kg.  
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.svg')})`}")
       .col-sm-6.col-xl-2.mb-4.p-1
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
@@ -578,7 +579,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.BG21.p-2.py-4
               .titulo-sexto.color-secundario                        
-                p.mb-0 Ocho llantas y eje tándem - peso máximo por eje de 22.000 Kg  
+                p.mb-0 Ocho llantas y eje tándem - peso máximo por eje de 22.000 Kg.  
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.svg')})`}")
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -592,7 +593,7 @@
           img(src='@/assets/curso/tema1/img49.png')
         .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -90px; bottom: ; width: 150px ")
       .col-lg-7       
-        p Las plataformas de información para el manejo de los objetos postales deben ser integrales, dicha herramienta ofimática debe permitir el proceso de administración de la información, realizar registros documentales digitales que rigen (la solicitud del cliente para la prestación del servicio) hasta el destino final (entrega del objeto postal al cliente) y la generación de informes según los parámetros de la información que se requiera procesar. Lo anterior quiere decir que el <em>software</em> aplicable para el proceso de última milla ya viene integrado en el control de sus procesos dentro de la plataforma principal de gestión  del operador de servicios postales y del transporte de mercancías.
+        p Las plataformas de información para el manejo de los objetos postales deben ser integrales, #[strong dicha herramienta ofimática debe permitir el proceso de administración de la información, realizar registros documentales digitales que rigen (la solicitud del cliente para la prestación del servicio) hasta el destino final (entrega del objeto postal al cliente) y la generación de informes según los parámetros de la información que se requiera procesar]. Lo anterior quiere decir que el <em>software</em> aplicable para el proceso de última milla ya viene integrado en el control de sus procesos dentro de la plataforma principal de gestión  del operador de servicios postales y del transporte de mercancías.
     
     .row.align-items-center.BG01.p-4.mb-5
       .col-lg-1.col-md-1.col-2
@@ -600,9 +601,9 @@
           img(src='@/assets/curso/tema1/img06.svg')
       .col-lg-11.col-md-11.col-10
         .row
-          .col-11
+          .col-lg-9
             p Se invita a ampliar la información sobre <strong>el <em>software</em> para solución logística de última milla</strong>, ingresando al siguiente enlace o material complementario: 
-          .col-6(data-aos="fade-left")
+          .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8YmUODEfmRI" target="_blank")
               span Ver más
               i.fas.fa-link
@@ -611,13 +612,13 @@
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.8 Información documentada de la última milla
 
-    .row.justify-content-center.align-items-center.mb-5     
+    .row.justify-content-center.align-items-center     
       .col-lg-4.p-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img50.png')
-        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -5% ; top: -105px; bottom: ; width: 150px ")
+        .imagen-adornos-flotantes__img: img(src="@/assets/curso/tema1/img57.svg" style="left: ; right: -55% ; top: -105px; bottom: ; width: 150px ")
       .col-lg-7       
-        p El <em>software</em> logístico de última milla contiene opciones para hacer seguimiento a las entregas en periodos establecidos, este <em>software</em> permite que el conductor de los vehículos conozca la hoja de ruta, así como las especificaciones establecidas para las entregas y así dar cumplimiento a las entregas en las horas establecidas, permite también que se registre a través de los dispositivos móviles las entregas efectivas y puede acompañar la entrega de evidencias como firmas e incluso fotografías y, las entregas no efectivas también son reportadas en tiempo real, esta información en línea es compartida con el usuario o cliente donde conoce los pormenores y los detalles del avance de la entrega. 
+        p.mb-0 El <em>software</em> logístico de última milla contiene opciones para hacer seguimiento a las entregas en periodos establecidos, este <em>software</em> permite que el conductor de los vehículos conozca la hoja de ruta, así como las especificaciones establecidas para las entregas y así dar cumplimiento a las entregas en las horas establecidas, permite también que se registre a través de los dispositivos móviles las entregas efectivas y puede acompañar la entrega de evidencias como firmas e incluso fotografías y, las entregas no efectivas también son reportadas en tiempo real, esta información en línea es compartida con el usuario o cliente donde conoce los pormenores y los detalles del avance de la entrega. 
 
     p.mb-5 La información que se debe disponer del proceso <b>“última milla”</b> es la siguiente:
 
