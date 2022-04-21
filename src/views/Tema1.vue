@@ -535,9 +535,9 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.cajon.color-acento-contenido.p-4.mb-4
-        p La Resolución 4100 de 2004 en el Artículo 7 refiere las dimensiones que deben cumplir los vehículos de carga que transiten por el territorio nacional. Estas dimensiones están estandarizadas con las siguientes medidas: ancho máximo 2,60 metros, altura máxima 4,40 metros. 
+        p La Resolución 4100 de 2004 en el artículo 7 refiere las dimensiones que deben cumplir los vehículos de carga que transiten por el territorio nacional. Estas dimensiones están estandarizadas con las siguientes medidas: ancho máximo 2,60 metros, altura máxima 4,40 metros. 
       .col-lg-12.mb-5
-        p El Artículo 9 establece para los vehículos de transporte de carga el máximo peso por eje, así:
+        p El artículo 9 establece para los vehículos de transporte de carga el máximo peso por eje, así:
 
   .container.tarjeta.tarjeta--blanca
     .row.justify-content-center.align-items-center.mb-5
