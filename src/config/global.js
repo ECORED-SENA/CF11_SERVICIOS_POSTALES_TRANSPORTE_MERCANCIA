@@ -175,43 +175,50 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Gestionar el proceso de última milla”',
+      texto:
+        'Villuendas Internacional. (2019). ¿Qué es la última milla? [video].  YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IzJ0FcP3Cy8',
     },
     {
-      texto: 'Pedidos',
+      texto:
+        'Montoya, J. (2020). Procesos de un centro de distribución – Clase 2 UdeA [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=BE8XH9LkymY',
     },
     {
-      texto: 'Pedidos',
+      texto: 'Webtrans. (2020). ¿Sabes que es la última milla? ',
       tipo: 'Blog',
       link: 'https://www.ewebtrans.com/blog/es/sabes-que-es-la-ultima-milla/',
     },
     {
-      texto: 'Equipos',
+      texto:
+        'Montoya, J. (2020). Equipos de manipulación de materiales y tecnología dentro del centro de distribución. [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=pcyYZjcsd-o',
     },
     {
-      texto: 'Procesos de distribución',
+      texto:
+        'Unocero. (2019). Centro de distribución Mercado libre. [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=8eFhnpvaRB0',
     },
     {
-      texto: 'Disposición de carga de acuerdo con el plan de ruta',
+      texto:
+        'Autoescuela online. (2012). Disposición de la carga. [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=A73wlrqsNw0',
     },
     {
-      texto: 'Normativa de movilización de cargas',
+      texto:
+        'Zona logística. (2020). Normatividad vigente en transporte terrestre de carga.',
       tipo: 'Blog',
       link:
         'https://zonalogistica.com/herramientas/normatividad-vigente-en-transporte-terrestre-de-carga/',
     },
     {
-      texto: 'Aplicación de <em>software</em>',
+      texto:
+        'Rendel ìt, (2019). MobiWork solución de logística de última milla. [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=8YmUODEfmRI',
     },

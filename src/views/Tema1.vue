@@ -367,7 +367,7 @@
       .col-lg-11.col-md-11.col-10
         .row
           .col-lg-9
-            p En caso de desear ampliar la información y conocer un poco sobre el “<strong>Centro de distribución de mercado libre - Así funciona</strong>”, ingrese al siguiente enlace o material complementario: 
+            p En caso de desear ampliar la información y conocer un poco sobre el “<strong>Centro de distribución mercado libre - Así funciona</strong>”, ingrese al siguiente enlace o material complementario: 
           .col-3(data-aos="fade-left")
             a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=8eFhnpvaRB0" target="_blank")
               span Ver más
